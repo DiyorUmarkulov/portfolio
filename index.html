@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио разработчика на NestJS и других технологий."
+    />
+    <title>Портфолио NestJS разработчика</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">
+            <i class="fas fa-code"></i>
+            <span>Umarqulov</span>
+          </a>
+
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span class="menu-icon">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </span>
+          </button>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">NestJS Разработчик</h1>
+          <p class="hero-subtitle">
+            Создаю высоконагруженные backend-решения с использованием NestJS,
+            микросервисной архитектуры и современных технологий.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-eye"></i> Мои работы
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-paper-plane"></i> Связаться
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title animate">
+          <h2>Обо мне</h2>
+          <p class="subtitle">Познакомимся поближе</p>
+        </div>
+
+        <div class="about-content animate">
+          <div class="about-text">
+            <p>
+              Привет! Я <span class="highlight">backend-разработчик</span> с
+              более чем 3-летним опытом создания масштабируемых и надежных
+              веб-приложений. Моя специализация — разработка на
+              <span class="highlight">NestJS</span> и создание микросервисных
+              архитектур.
+            </p>
+            <p>
+              Я увлечен созданием чистого, поддерживаемого кода и оптимизацией
+              производительности. Мой опыт включает работу с
+              <span class="highlight">Docker, Kubernetes, RabbitMQ, Redis</span>
+              и другими технологиями для построения распределенных систем.
+            </p>
+            <p>
+              Кроме разработки, я уделяю внимание безопасности API,
+              документированию с помощью
+              <span class="highlight">Swagger</span> и созданию эффективных
+              CI/CD процессов.
+            </p>
+
+            <div class="skills">
+              <span class="skill">NestJS</span>
+              <span class="skill">TypeScript</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">GraphQL</span>
+              <span class="skill">PostgreSQL</span>
+              <span class="skill">MongoDB</span>
+              <span class="skill">Docker</span>
+              <span class="skill">Kubernetes</span>
+              <span class="skill">RabbitMQ</span>
+              <span class="skill">Redis</span>
+              <span class="skill">Microservices</span>
+              <span class="skill">REST API</span>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              alt="Developer workspace"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section bg-dark">
+      <div class="container">
+        <div class="section-title animate">
+          <h2>Мои проекты</h2>
+          <p class="subtitle">Некоторые из моих последних работ</p>
+        </div>
+
+        <div class="projects-grid animate">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Микросервисная архитектура"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Микросервисная платформа</h3>
+              <p>
+                Полноценная микросервисная архитектура с 10+ сервисами,
+                взаимодействующими через gRPC и RabbitMQ.
+              </p>
+              <div class="project-tech">
+                <span class="tech">NestJS</span>
+                <span class="tech">gRPC</span>
+                <span class="tech">RabbitMQ</span>
+                <span class="tech">Kubernetes</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fas fa-eye"></i> Демо
+                </a>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fab fa-github"></i> Код
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="API Gateway"
+              />
+            </div>
+            <div class="project-content">
+              <h3>API Gateway</h3>
+              <p>
+                Высокопроизводительный API Gateway с аутентификацией,
+                кешированием, rate-limiting и логированием.
+              </p>
+              <div class="project-tech">
+                <span class="tech">NestJS</span>
+                <span class="tech">Redis</span>
+                <span class="tech">JWT</span>
+                <span class="tech">Swagger</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fas fa-eye"></i> Демо
+                </a>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fab fa-github"></i> Код
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                alt="Telegram бот"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Telegram CRM Бот</h3>
+              <p>
+                Многофункциональный бот для управления клиентами с интеграцией в
+                CRM систему и платежами.
+              </p>
+              <div class="project-tech">
+                <span class="tech">NestJS</span>
+                <span class="tech">Telegraf</span>
+                <span class="tech">PostgreSQL</span>
+                <span class="tech">Stripe API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fas fa-eye"></i> Демо
+                </a>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <i class="fab fa-github"></i> Код
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-title animate">
+          <h2>Контакты</h2>
+          <p class="subtitle">Свяжитесь со мной для сотрудничества</p>
+        </div>
+
+        <div class="contact-container animate">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <a href="mailto:diyor.umarqulov@gmail.com"
+                  >diyor.umarqulov@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Телефон</h3>
+                <a href="tel:+1234567890">+998 (77) 005-39-19</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Локация</h3>
+                <p>Джиззак, Узбекистан</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/DiyorUmarkulov" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://t.me/diyorumarqulov" class="social-link">
+                <i class="fab fa-telegram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/diyor-umarqulov/"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="John Doe"
+                required
+              />
+              <label for="name" class="form-label">Ваше имя</label>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="example@gmail.com"
+                required
+              />
+              <label for="email" class="form-label">Ваш Email</label>
+            </div>
+
+            <div class="form-group">
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="Сообщение"
+                required
+              ></textarea>
+              <label for="message" class="form-label">Ваше сообщение</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Отправить сообщение
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="footer-logo">
+            <i class="fas fa-code"></i>
+            <span>Diyor Umarqulov</span>
+          </a>
+
+          <ul class="footer-links">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+
+          <div class="footer-social">
+            <a href="https://github.com/DiyorUmarkulov" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://t.me/diyorumarqulov" class="social-link">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/diyor-umarqulov/"
+              class="social-link"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <p class="copyright">
+            &copy; 2023 Diyor Umarqulov. Все права защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
