@@ -243,13 +243,20 @@ nav {
   font-weight: 800;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  background: linear-gradient(to right, #f8fafc, #c4b5fd);
+  background: linear-gradient(to right, #f8fafc, var(--primary));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1s ease-out forwards;
+
+  &.marked {
+    background: var(--primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .hero-subtitle {
